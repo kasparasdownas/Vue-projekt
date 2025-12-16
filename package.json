@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/kasparasdownas/Vue-projekt#readme",
   "dependencies": {
-    "vue": "^3.5.25"
+    "vite-plugin-vuetify": "^2.1.2",
+    "vue": "^3.5.25",
+    "vuetify": "^3.11.3"
   },
   "devDependencies": {
     "@types/node": "^25.0.2",
