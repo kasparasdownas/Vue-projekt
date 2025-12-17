@@ -8,4 +8,14 @@ export default defineConfig({
     port: 5174,
     host: true,
   },
+  ssr: {
+    noExternal: ['vuetify'],
+  },
+  test: {
+    environment: 'jsdom',
+    css: true,
+    deps: {
+      inline: ['vuetify'],
+    },
+  },
 });
