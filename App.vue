@@ -1,10 +1,15 @@
 <template>
-  <div class="page">
-    <header class="page__header">
-      <h1 class="headline">Kanban board</h1>
-    </header>
-    <KanbanBoard />
-  </div>
+  <v-app>
+    <v-main>
+      <v-container class="page py-10">
+        <header class="page__header">
+          <h1 class="headline">Kanban board</h1>
+        </header>
+
+        <KanbanBoard />
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
 <script setup lang="ts">
@@ -17,13 +22,10 @@ import KanbanBoard from './components/KanbanBoard.vue';
   padding: 24px 16px 40px;
   max-width: 1100px;
   margin: 0 auto;
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
-  color: #1f2937;
-  background: #f7f7f7;
 }
 
 .page__header {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .headline {
