@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue';
 import vuetify from 'vite-plugin-vuetify';
 
 export default defineConfig({
+  base: '/Vue-projekt/',
   plugins: [vue(), vuetify()],
   server: {
     port: 5174,
